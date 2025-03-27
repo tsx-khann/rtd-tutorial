@@ -10,8 +10,4 @@ The W3Schools XML tutorial provides a comprehensive introduction to Extensible M
 Contents
 --------
 
-.. toctree::
-
-   usage
-   api
    xml_tutorial_summary
