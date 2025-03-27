@@ -12,4 +12,6 @@ Contents
 
 .. toctree::
 
+   usage
+   api
    xml_tutorial_summary
