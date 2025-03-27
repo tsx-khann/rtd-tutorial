@@ -1,35 +1,32 @@
 XML AJAX
-=====
+========
 
-.. _installation:
+AJAX Introduction
+-----------------
 
-Installation
+AJAX XMLHttp
 ------------
 
-To use Lumache, first install it using pip:
+AJAX Request
+------------
 
-.. code-block:: console
+AJAX Response
+-------------
 
-   (.venv) $ pip install lumache
+AJAX XML File
+-------------
 
-Creating recipes
-----------------
+AJAX PHP
+--------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+AJAX ASP
+--------
 
-.. autofunction:: lumache.get_random_ingredients
+AJAX Database
+-------------
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+AJAX Applications
+-----------------
 
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
-
+AJAX Examples
+-------------
