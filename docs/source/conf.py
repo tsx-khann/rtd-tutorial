@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-author = 'Graziella'
-copyright = '2021, Graziella'
+project = 'XML Tutorial'
+author = 'Khan_32s'
+copyright = '2021, xml'
 version = '0.1.0'
 release = '0.1'
 
