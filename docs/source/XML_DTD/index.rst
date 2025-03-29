@@ -13,17 +13,6 @@ XML DTD
    DTD_Examples
 
 
-DTD Entities
-============
-
-Entities define reusable content that can be referenced multiple times in an XML document.
-
-Example:
-
-.. code-block:: xml
-
-   <!ENTITY company "Tech Corp">
-   <note>&company; welcomes you.</note>
 
 DTD Examples
 ============
