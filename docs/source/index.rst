@@ -16,4 +16,6 @@ Contents
    :maxdepth: 2
    :caption: XML Topics
 
+   XML_Tutorials/index
    XML_AJAX/index
+
