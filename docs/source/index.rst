@@ -9,9 +9,6 @@ It is designed to help users understand how to create, parse, and utilize XML fo
 
    This project is under active development.
 
-Contents
---------
-
 .. toctree::
    :maxdepth: 2
    :caption: TABLE OF CONTENT
