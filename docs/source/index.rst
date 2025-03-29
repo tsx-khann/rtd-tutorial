@@ -21,7 +21,7 @@ Contents
    XPath_Tutorial/index
    XSLT_Tutorial/index
    XML_DTD/index
-
+   XQuery_Tutorial/index
    XSD_Schema/index
    XSD_Data_Types/index
    Web_Services/index
