@@ -14,6 +14,7 @@ Contents
 
 .. toctree::
    :maxdepth: 2
+   :caption: TABLE OF CONTENT
 
    XML_Tutorial/index
    XML_AJAX/index
