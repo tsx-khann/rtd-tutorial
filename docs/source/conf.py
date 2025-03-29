@@ -2,42 +2,34 @@
 
 # -- Project Information -----------------------------------------------------
 
+import os
+import sys
+
+#project's root directory to sys.path
+sys.path.insert(0, os.path.abspath(".."))
+
+# Project information
 project = 'XML Tutorial'
-author = 'Khan_32s'
-copyright = '2021, xml'
-version = '0.1.0'
-release = '0.1'
+copyright = '2024, Your Name'
+author = 'Your Name'
 
-# -- General Configuration ---------------------------------------------------
-
+# General configuration
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode',
 ]
 
-intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
-}
-
-intersphinx_disabled_domains = ['std']
-
 templates_path = ['_templates']
+exclude_patterns = []
 
-# -- Options for HTML output -------------------------------------------------
+# HTML output
+html_theme = 'sphinx_rtd_theme'
+html_static_path = ['_static']
 
-html_theme = "sphinx_rtd_theme"  # Use Read the Docs theme
-
-# Enable dropdown menus in the sidebar
+# Theme options to collapse sidebar navigation
 html_theme_options = {
-    "collapse_navigation": False,  # Expands the menu instead of collapsing
-    "navigation_depth": 4,         # Allows deeper levels in navigation
-    "titles_only": False,          # Shows full titles instead of just headers
+    "collapse_navigation": True, 
+    "navigation_depth": 1, 
 }
 
-# -- Options for EPUB output -------------------------------------------------
-
-epub_show_urls = 'footnote'
