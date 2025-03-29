@@ -1,4 +1,4 @@
-XML Tutorials
+XML Tutorial
 ========
 
 
