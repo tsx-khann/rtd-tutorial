@@ -15,6 +15,11 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-   XML_Tutorials/index
-   XML_AJAX/index
-
+   XML_Tutorial/index
+   XML_DOM/index
+   XML_DTD/index
+   XPath_Tutorial/index
+   XSD_Data_Types/index
+   XSD_Schema/index
+   XSLT_Tutorial/index
+   Web_Services/index
