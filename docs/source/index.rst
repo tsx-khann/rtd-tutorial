@@ -16,10 +16,12 @@ Contents
    :maxdepth: 2
 
    XML_Tutorial/index
+   XML_AJAX/index
    XML_DOM/index
-   XML_DTD/index
    XPath_Tutorial/index
-   XSD_Data_Types/index
-   XSD_Schema/index
    XSLT_Tutorial/index
+   XML_DTD/index
+
+   XSD_Schema/index
+   XSD_Data_Types/index
    Web_Services/index
