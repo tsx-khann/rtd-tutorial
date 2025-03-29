@@ -1,13 +1,15 @@
 # Configuration file for the Sphinx documentation builder.
 
-# -- Project information
+# -- Project Information -----------------------------------------------------
+
 project = 'XML Tutorial'
 author = 'Khan_32s'
 copyright = '2021, xml'
 version = '0.1.0'
 release = '0.1'
 
-# -- General configuration
+# -- General Configuration ---------------------------------------------------
+
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
@@ -24,17 +26,18 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
-html_static_path = ['_static']  # Ensure '_static' exists
 
-# -- Options for HTML output
-html_theme = 'sphinx_rtd_theme'
+# -- Options for HTML output -------------------------------------------------
+
+html_theme = "sphinx_rtd_theme"  # Use Read the Docs theme
+
+# Enable dropdown menus in the sidebar
 html_theme_options = {
-    'collapse_navigation': True,  # Enables collapsible sidebar menus
-    'navigation_depth': 3,  # Ensures deeper levels are visible
+    "collapse_navigation": False,  # Expands the menu instead of collapsing
+    "navigation_depth": 4,         # Allows deeper levels in navigation
+    "titles_only": False,          # Shows full titles instead of just headers
 }
 
-# -- Options for EPUB output
-epub_show_urls = 'footnote'
+# -- Options for EPUB output -------------------------------------------------
 
-# -- Master document
-master_doc = 'index'  # Ensure it points to the main documentation file
+epub_show_urls = 'footnote'
