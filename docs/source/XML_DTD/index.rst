@@ -4,30 +4,14 @@ XML DTD
 .. toctree::
    :maxdepth: 2
 
-   DTD Introduction
-   DTD Building Blocks
-   DTD Elements
-   DTD Attributes
-   DTD Elements vs Attr
-   DTD Entities
-   DTD Examples
+   DTD_Introduction
+   DTD_Building_Blocks
+   DTD_Elements
+   DTD_Attributes
+   DTD_Elements_vs_Attr
+   DTD_Entities
+   DTD_Examples
 
-
-
-
-
-DTD Elements
-============
-
-Elements define the structure and content of an XML document.
-They specify what child elements or text data they can contain.
-
-Example:
-
-.. code-block:: xml
-
-   <!ELEMENT note (to, from, heading, body)>
-   <!ELEMENT to (#PCDATA)>
 
 DTD Attributes
 ==============
