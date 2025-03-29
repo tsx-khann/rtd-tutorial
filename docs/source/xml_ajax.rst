@@ -1,13 +1,11 @@
-.. details:: XML AJAX
+XML AJAX
+========
 
-   **AJAX Introduction**
-   
-   - AJAX XMLHttp
-   - AJAX Request
-   - AJAX Response
-   - AJAX XML File
-   - AJAX PHP
-   - AJAX ASP
-   - AJAX Database
-   - AJAX Applications
-   - AJAX Examples
+AJAX (Asynchronous JavaScript and XML) is a technique for creating dynamic, fast-loading web applications by exchanging data with a server in the background. This section covers various aspects of AJAX.
+
+.. toctree::
+   :maxdepth: 1
+
+   AJAX_Introduction
+   AJAX_XMLHttp
+
