@@ -18,8 +18,8 @@ It is designed to help users understand how to create, parse, and utilize XML fo
    XML_DOM/index
    XPath_Tutorial/index
    XSLT_Tutorial/index
-   XML_DTD/index
    XQuery_Tutorial/index
+   XML_DTD/index
    XSD_Schema/index
    XSD_Data_Types/index
    Web_Services/index
