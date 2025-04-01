@@ -1,5 +1,5 @@
-XML Tutorial
-============
+XML HOME
+========
 
 Learn XML
 ---------
