@@ -1,4 +1,4 @@
-XML DOM Traversing
+DOM Traversing
 ========================
 Traversing the XML DOM involves accessing different nodes using various methods such as parentNode, childNodes, firstChild, and lastChild.
 
