@@ -11,7 +11,7 @@ In the XML DOM, the document is represented as a tree of nodes. Each node can re
 - **Comment Nodes:** Represent comments within the XML document.
 
 Example XML Document:
-```xml
+.. code-block:: xml
 <?xml version="1.0"?>
 <bookstore>
     <book category="cooking">
