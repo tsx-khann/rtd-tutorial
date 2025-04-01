@@ -4,16 +4,15 @@ The XML DOM (Document Object Model) is a platform-independent and language-neutr
 
 Example XML:
 
-    .. code-block:: xml
+.. code-block:: xml
+
     <books>
         <book>
             <title>Book One</title>
-
             <author>Author One</author>
         </book>
         <book>
             <title>Book Two</title>
-
             <author>Author Two</author>
         </book>
     </books>
