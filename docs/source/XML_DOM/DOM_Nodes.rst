@@ -1,4 +1,4 @@
-XML DOM Nodes
+DOM Nodes
 =============
 
 In the XML DOM, the document is represented as a tree of nodes. Each node can represent an element, attribute, text, or other types of data.
