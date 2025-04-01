@@ -11,7 +11,7 @@ XML was designed to store and transport data.
 XML was designed to be both human- and machine-readable.
 
 XML Example 1
-```xml
+.. code-block:: xml
 <?xml version="1.0" encoding="UTF-8"?>
 <note>
   <to>Tove</to>
@@ -22,7 +22,7 @@ XML Example 1
 ```
 
 XML Example 2
-```xml
+.. code-block:: xml
 <?xml version="1.0" encoding="UTF-8"?>
 <breakfast_menu>
   <food>
