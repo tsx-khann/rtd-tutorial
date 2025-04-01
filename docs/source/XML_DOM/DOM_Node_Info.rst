@@ -1,4 +1,4 @@
-XML DOM Node Info
+DOM Node Info
 =================
 This refers to the properties and methods that allow you to obtain details about a node, such as its name, type, value, and its child elements.
 
