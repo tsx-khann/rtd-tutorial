@@ -1,4 +1,4 @@
-XML DOM Navigating
+DOM Navigating
 ========================
 Navigating through the XML DOM allows you to access related nodes. You can use properties like nextSibling, previousSibling, and parentNode to move between nodes.
 
