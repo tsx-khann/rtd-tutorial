@@ -1,4 +1,4 @@
-XML DOM Accessing
+DOM Accessing
 =================
 You can access XML DOM nodes using various methods like getElementById, getElementsByTagName, getElementsByClassName, etc.
 
