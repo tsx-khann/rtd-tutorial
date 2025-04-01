@@ -16,6 +16,6 @@ Example:
 
     .. code-block:: xml
     <book>
-        <title>XML Guide</title>
+        <title>XML Guide</title>  
         <author>Jane Doe</author>
     </book>
