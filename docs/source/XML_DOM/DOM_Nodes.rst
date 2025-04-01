@@ -15,8 +15,9 @@ Types of Nodes:
 Example:
 
     .. code-block:: xml
-    <book>
-         <title>XML Guide</title>  
+        <book>
+            <title>XML Guide</title>  
+    
+            <author>Jane Doe</author>
+        </book>
 
-         <author>Jane Doe</author>
-    </book>
