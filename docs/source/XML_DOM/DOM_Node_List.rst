@@ -1,4 +1,4 @@
-XML DOM Node List
+DOM Node List
 ========================
 A NodeList is a collection of nodes, returned by methods like getElementsByTagName. You can loop through a NodeList to access individual nodes.
 
