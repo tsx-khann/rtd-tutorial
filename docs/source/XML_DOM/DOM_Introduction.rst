@@ -1,29 +1,17 @@
-XML DOM Nodes
-=============
+XML DOM Introduction
+====================
+The XML DOM (Document Object Model) is a platform-independent and language-neutral interface for accessing and manipulating XML documents. It represents the document structure as a tree of nodes. This allows you to access, modify, or delete elements, and add new elements.
 
-In the XML DOM, the document is represented as a tree of nodes. Each node can represent different parts of the XML document.
+Example XML:
+------------
 
-**Types of Nodes:**
-- **Document Node:** Represents the entire XML document.
-- **Element Nodes:** Represent XML elements (e.g., `<book>`, `<author>`).
-- **Attribute Nodes:** Represent attributes of elements (e.g., `category="fiction"`).
-- **Text Nodes:** Contain the text content within elements.
-- **Comment Nodes:** Represent comments within the XML document.
-
-Example XML Document:
-.. code-block:: xml
-<?xml version="1.0"?>
-<bookstore>
-    <book category="cooking">
-        <title lang="en">Everyday Italian</title>
-        <author>Giada De Laurentiis</author>
-        <year>2005</year>
-        <price>30.00</price>
+<books>
+    <book>
+        <title>Book One</title>
+        <author>Author One</author>
     </book>
-    <book category="children">
-        <title lang="en">Harry Potter</title>
-        <author>J.K. Rowling</author>
-        <year>2005</year>
-        <price>29.99</price>
+    <book>
+        <title>Book Two</title>
+        <author>Author Two</author>
     </book>
-</bookstore>
+</books>
