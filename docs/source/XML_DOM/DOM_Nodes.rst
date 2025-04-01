@@ -14,10 +14,10 @@ Types of Nodes:
 
 Example:
 
-    .. code-block:: xml
+.. code-block:: xml
+
     <book>
         <title>XML Guide</title>  
-        
         <author>Jane Doe</author>
     </book>
 
