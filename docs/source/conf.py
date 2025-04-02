@@ -38,13 +38,10 @@ html_theme_options = {
     "titles_only": False,          # Shows full titles instead of just headers
 }
 
-# Add custom CSS for light green and white theme
-def setup(app):
-    app.add_css_file('custom.css')
-
-# -- Paths for static files -------------------------------------------------
-html_static_path = ['_static']
-
 # -- Options for EPUB output -------------------------------------------------
 
 epub_show_urls = 'footnote'
+
+
+could u atleast change the color theme 
+to light green and white
