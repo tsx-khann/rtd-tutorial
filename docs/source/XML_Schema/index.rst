@@ -1,2 +1,2 @@
-XML Schema
+XSD Schema
 ==========
