@@ -42,5 +42,6 @@ The `<template>` element in XSLT defines **how to transform specific XML element
 
 
 **How `<template>` Works**
+
 - **Defines rules for transforming elements**.
 - **Matches XML data** and applies transformations.
