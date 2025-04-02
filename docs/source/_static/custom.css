@@ -4,7 +4,7 @@ body {
 }
 
 a {
-    color: Blue;
+    color: blue;
 }
 
 a:hover {
@@ -12,7 +12,7 @@ a:hover {
 }
 
 .wy-side-nav-search, .wy-nav-side {
-    background-color: Gray;  
+    background-color: gray;  
 }
 
 .wy-menu-vertical a {
@@ -36,6 +36,6 @@ a:hover {
 }
 
 .wy-table-responsive th {
-    background-color: Black; 
+    background-color: black; 
     color: white;
 }
