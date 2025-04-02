@@ -29,15 +29,21 @@ templates_path = ['_templates']
 
 # -- Options for HTML output -------------------------------------------------
 
-# Changed the theme from 'sphinx_rtd_theme' to 'classic'
-html_theme = "classic"  # Use Classic theme
+html_theme = "sphinx_rtd_theme"  # Use Read the Docs theme
 
-# Enable dropdown menus in the sidebar (for compatible themes)
+# Enable dropdown menus in the sidebar
 html_theme_options = {
     "collapse_navigation": False,  # Expands the menu instead of collapsing
     "navigation_depth": 4,         # Allows deeper levels in navigation
     "titles_only": False,          # Shows full titles instead of just headers
 }
+
+# Add custom CSS for light green and white theme
+def setup(app):
+    app.add_css_file('custom.css')
+
+# -- Paths for static files -------------------------------------------------
+html_static_path = ['_static']
 
 # -- Options for EPUB output -------------------------------------------------
 
