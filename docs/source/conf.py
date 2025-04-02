@@ -2,7 +2,7 @@
 
 # -- Project Information -----------------------------------------------------
 
-project = 'XML Tutorial'
+project = 'XML Tutorials'
 author = 'Khan_32s'
 copyright = '2021, xml'
 version = '0.1.0'
