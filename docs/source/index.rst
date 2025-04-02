@@ -20,6 +20,6 @@ It is designed to help users understand how to create, parse, and utilize XML fo
    XSLT_Tutorial/index
    XQuery_Tutorial/index
    XML_DTD/index
-   XSD_Schema/index
-   XSD_Data_Types/index
+   XML_Schema/index
+   XML_Data_Types/index
    Web_Services/index
