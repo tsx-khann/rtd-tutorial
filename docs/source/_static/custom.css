@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+    color: black;  
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: green;  
+}
+
+.wy-side-nav-search, .wy-nav-side {
+    background-color: gray;  
+}
+
+.wy-menu-vertical a {
+    color: black !important;  
+}
+
+.wy-menu-vertical a:hover {
+    background-color: darkgray;  
+}
+
+.wy-nav-top {
+    background-color: black; 
+}
+
+.wy-nav-top a {
+    color: white; 
+}
+
+.wy-nav-top a:hover {
+    color: darkgray; 
+}
+
+.wy-table-responsive th {
+    background-color: black; 
+    color: white;
+}
