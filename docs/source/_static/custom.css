@@ -1,48 +1,41 @@
-/* Custom Light Green and White Theme */
-
-/* Background and text color */
 body {
     background-color: white;
-    color: #4CAF50;  /* Light Green */
+    color: black;  
 }
 
-/* Links */
 a {
-    color: #4CAF50;  /* Light Green links */
+    color: Blue;
 }
 
 a:hover {
-    color: #2E7D32;  /* Darker Green for hover */
+    color: green;  
 }
 
-/* Sidebar Styling */
 .wy-side-nav-search, .wy-nav-side {
-    background-color: #4CAF50;  /* Light Green sidebar */
+    background-color: Gray;  
 }
 
 .wy-menu-vertical a {
-    color: white !important;  /* White text in sidebar */
+    color: black !important;  
 }
 
 .wy-menu-vertical a:hover {
-    background-color: #2E7D32;  /* Darker green when hovering in sidebar */
+    background-color: darkgray;  
 }
 
-/* Header Styling */
 .wy-nav-top {
-    background-color: #4CAF50;  /* Light Green header */
+    background-color: black; 
 }
 
 .wy-nav-top a {
-    color: white;  /* White text in header */
+    color: white; 
 }
 
 .wy-nav-top a:hover {
-    color: #2E7D32;  /* Darker green for header links on hover */
+    color: darkgray; 
 }
 
-/* Table Headers */
 .wy-table-responsive th {
-    background-color: #4CAF50; /* Light Green table headers */
+    background-color: Black; 
     color: white;
 }
