@@ -12,6 +12,7 @@ The `<xs:schema>` element is used to define an XML Schema, containing all the ru
     </xs:schema>
 
 **Attributes of `<xs:schema>`:**
+
 - `xmlns:xs`: Defines the XML Schema namespace.
 - `targetNamespace`: Specifies the namespace for the XML Schema.
 - `elementFormDefault`: Specifies whether elements should be qualified with a namespace.
