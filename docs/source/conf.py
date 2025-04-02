@@ -1,3 +1,5 @@
+# Configuration file for the Sphinx documentation builder.
+
 # -- Project Information -----------------------------------------------------
 
 project = 'XML Tutorial'
@@ -27,14 +29,14 @@ templates_path = ['_templates']
 
 # -- Options for HTML output -------------------------------------------------
 
-html_theme = "sphinx_book_theme"  # Use Sphinx Book Theme for a cool look
+# Changed the theme from 'sphinx_rtd_theme' to 'classic'
+html_theme = "classic"  # Use Classic theme
 
-# Enable dropdown menus in the sidebar
+# Enable dropdown menus in the sidebar (for compatible themes)
 html_theme_options = {
     "collapse_navigation": False,  # Expands the menu instead of collapsing
     "navigation_depth": 4,         # Allows deeper levels in navigation
     "titles_only": False,          # Shows full titles instead of just headers
-    "show_related": True,          # Show related links in the sidebar
 }
 
 # -- Options for EPUB output -------------------------------------------------
