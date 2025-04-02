@@ -1,41 +1,50 @@
+/* Set the background color and text color for the whole page */
 body {
     background-color: white;
-    color: black;  
+    color: black;
+    font-family: Verdana, sans-serif;
 }
 
+/* Style links: Default blue, turns green on hover */
 a {
     color: blue;
 }
 
 a:hover {
-    color: green;  
+    color: green;
 }
 
+/* Style the side navigation search bar and side navigation panel */
 .wy-side-nav-search, .wy-nav-side {
-    background-color: gray;  
+    background-color: gray;
 }
 
+/* Force menu links in the vertical navigation to be black */
 .wy-menu-vertical a {
-    color: black !important;  
+    color: black !important;
 }
 
+/* Change background color of vertical navigation links on hover */
 .wy-menu-vertical a:hover {
-    background-color: darkgray;  
+    background-color: darkgray;
 }
 
+/* Style the top navigation bar */
 .wy-nav-top {
-    background-color: black; 
+    background-color: black;
 }
 
+/* Style the top navigation links: Default white, turns dark gray on hover */
 .wy-nav-top a {
-    color: white; 
+    color: darkblue;
 }
 
 .wy-nav-top a:hover {
-    color: darkgray; 
+    color: darkgray;
 }
 
+/* Style table headers inside responsive tables */
 .wy-table-responsive th {
-    background-color: black; 
+    background-color: black;
     color: white;
 }
