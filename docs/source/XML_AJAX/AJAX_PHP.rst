@@ -11,7 +11,7 @@ AJAX works with PHP to interact with databases and dynamically update webpage co
     xhttp.open("GET", "server.php", true);
     xhttp.send();
 
-#### 2. PHP File (server.php)
+**2. PHP File (server.php)**
 
 .. code-block:: php
 
