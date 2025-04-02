@@ -1,0 +1,48 @@
+/* Custom Light Green and White Theme */
+
+/* Background and text color */
+body {
+    background-color: white;
+    color: #4CAF50;  /* Light Green */
+}
+
+/* Links */
+a {
+    color: #4CAF50;  /* Light Green links */
+}
+
+a:hover {
+    color: #2E7D32;  /* Darker Green for hover */
+}
+
+/* Sidebar Styling */
+.wy-side-nav-search, .wy-nav-side {
+    background-color: #4CAF50;  /* Light Green sidebar */
+}
+
+.wy-menu-vertical a {
+    color: white !important;  /* White text in sidebar */
+}
+
+.wy-menu-vertical a:hover {
+    background-color: #2E7D32;  /* Darker green when hovering in sidebar */
+}
+
+/* Header Styling */
+.wy-nav-top {
+    background-color: #4CAF50;  /* Light Green header */
+}
+
+.wy-nav-top a {
+    color: white;  /* White text in header */
+}
+
+.wy-nav-top a:hover {
+    color: #2E7D32;  /* Darker green for header links on hover */
+}
+
+/* Table Headers */
+.wy-table-responsive th {
+    background-color: #4CAF50; /* Light Green table headers */
+    color: white;
+}
