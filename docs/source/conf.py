@@ -1,14 +1,15 @@
 # Configuration file for the Sphinx documentation builder.
 
-# -- Project Information -----------------------------------------------------
+# -- Project information
 
 project = 'XML Tutorials'
-author = 'Khan_32s'
 copyright = '2021, xml'
-version = '0.1.0'
-release = '0.1'
+author = 'Agustino Lara'
 
-# -- General Configuration ---------------------------------------------------
+release = '0.1'
+version = '0.1.0'
+
+# -- General configuration
 
 extensions = [
     'sphinx.ext.duration',
@@ -22,24 +23,13 @@ intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
-
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
-# -- Options for HTML output -------------------------------------------------
+# -- Options for HTML output
 
-html_theme = "sphinx_rtd_theme"  # Use Read the Docs theme
+html_theme = 'sphinx_rtd_theme'
 
-# Enable dropdown menus in the sidebar
-html_theme_options = {
-    "collapse_navigation": False,  # Expands the menu instead of collapsing
-    "navigation_depth": 4,         # Allows deeper levels in navigation
-    "titles_only": False,          # Shows full titles instead of just headers
-}
-
-# -- Options for EPUB output -------------------------------------------------
-
+# -- Options for EPUB output
 epub_show_urls = 'footnote'
-
-870p689[009
