@@ -1,4 +1,4 @@
-XML Tutorial
+SAMPLE
 ============
 
 .. toctree::
