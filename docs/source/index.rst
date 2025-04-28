@@ -23,3 +23,4 @@ It is designed to help users understand how to create, parse, and utilize XML fo
    XML_Schema/index
    XML_Data_Types/index
    Web_Services/index
+   folder1/index
